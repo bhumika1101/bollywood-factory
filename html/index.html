@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo website</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link as='font' crossorigin='' href="../font/Engagement-Regular.woff2" rel="preload" type='font/woff2'>
+  <link as='font' crossorigin='' href="../font/Pacifico-Regular.woff2" rel="preload" type='font/woff2'>
+  <link as='font' crossorigin='' href="../font/robot/Roboto-Thin.woff2" rel="preload" type='font/woff2'>
+  <link as='font' crossorigin='' href="../font/robot/Roboto-Light.woff2" rel="preload" type='font/woff2'>
+  <link as='font' crossorigin='' href="../font/robot/Roboto-Medium.woff2" rel="preload" type='font/woff2'>
+  <link as='font' crossorigin='' href="../font/robot/Roboto-Regular.woff2" rel="preload" type='font/woff2'>
+  <link as='font' crossorigin='' href="../font/robot/Roboto-Bold.woff2" rel="preload" type='font/woff2'>
+  <link as='font' crossorigin='' href="../font/robot/Roboto-Black.woff2" rel="preload" type='font/woff2'>
+  <link
+  rel="stylesheet"
+  href="../css/swiper.min.css"
+/>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+
+</head>
+
+<body>
+  <div class="hedare-wraper">
+    <div class="container-fluid">
+      <header>
+        <div class="header-container">
+          <div class="header-mobile-div">
+            <div class="logo">
+              <a href="javascript:void(0)">
+                <img src="../assest/logo.png" alt="logo">
+              </a>
+            </div>
+            <div class="d-flex flex-column align-items-center header-detail">
+              <h4 class="headre-detail-number">FOLLOW US</h4>
+              <div class="header-detail-icon">
+                <div class="social-media-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                    <path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"/>
+                  </svg>
+                </div>
+                <div class="social-media-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512"><polygon fill="none" points="222.1 313.9 322.3 256 222.1 198.1"/>
+                    <path fill="white" d="M443.2,98.2c-55.9-3.7-146.9-7.1-187.2-7.1s-131.3,3.5-187.2,7.1c-24,1.6-42.8,21.6-42.8,45.7v224.2   c0,24,18.8,44.1,42.8,45.7c55.9,3.7,146.9,7.1,187.2,7.1s131.3-3.5,187.2-7.1c24-1.6,42.8-21.6,42.8-45.7V143.9   C486,119.9,467.2,99.8,443.2,98.2z M347.3,264.7l-130.2,75.2c-1.5,0.9-3.3,1.3-5,1.3s-3.5-0.4-5-1.3c-3.1-1.8-5-5.1-5-8.7V180.8   c0-3.6,1.9-6.9,5-8.7s6.9-1.8,10,0l130.2,75.2c3.1,1.8,5,5.1,5,8.7C352.3,259.6,350.4,262.9,347.3,264.7z"/>
+                    <path fill="white" d="M444.5,78.3c-56.3-3.7-147.9-7.2-188.5-7.2s-132.3,3.5-188.5,7.2C33,80.5,6,109.4,6,143.9v224.2   c0,34.5,27,63.4,61.5,65.6c56.3,3.7,147.9,7.2,188.5,7.2s132.3-3.5,188.5-7.2c34.5-2.3,61.5-31.1,61.5-65.6V143.9   C506,109.4,479,80.5,444.5,78.3z M486,368.1c0,24-18.8,44.1-42.8,45.7c-55.9,3.7-146.9,7.1-187.2,7.1s-131.3-3.5-187.2-7.1   c-24-1.6-42.8-21.6-42.8-45.7V143.9c0-24,18.8-44.1,42.8-45.7c55.9-3.7,146.9-7.1,187.2-7.1s131.3,3.5,187.2,7.1   c24,1.6,42.8,21.6,42.8,45.7V368.1z"/>
+                    <path fill="white" d="M347.3,247.3l-130.2-75.2c-3.1-1.8-6.9-1.8-10,0s-5,5.1-5,8.7v150.4c0,3.6,1.9,6.9,5,8.7   c1.5,0.9,3.3,1.3,5,1.3s3.5-0.4,5-1.3l130.2-75.2c3.1-1.8,5-5.1,5-8.7C352.3,252.4,350.4,249.1,347.3,247.3z M222.1,313.9V198.1   L322.3,256L222.1,313.9z"/>
+                  </svg>
+                </div>
+                <div class="social-media-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="wifi"><circle cx="12" cy="19" r="1"/><path d="M12 14a5 5 0 0 0-3.47 1.4 1 1 0 1 0 1.39 1.44 3.08 3.08 0 0 1 4.16 0 1 1 0 1 0 1.39-1.44A5 5 0 0 0 12 14zm0-5a9 9 0 0 0-6.47 2.75A1 1 0 0 0 7 13.14a7 7 0 0 1 10.08 0 1 1 0 0 0 .71.3 1 1 0 0 0 .72-1.69A9 9 0 0 0 12 9z"/>
+                    <path d="M21.72 7.93a14 14 0 0 0-19.44 0 1 1 0 0 0 1.38 1.44 12 12 0 0 1 16.68 0 1 1 0 0 0 .69.28 1 1 0 0 0 .72-.31 1 1 0 0 0-.03-1.41z"/></g></g>
+                  </svg>
+                </div>
+                <div class="social-media-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                    <path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"></path>
+                  </svg>
+                </div>
+                <div class="social-media-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 16 16">
+                    <path d="M16 7h-2V5h-1v2h-2v1h2v2h1V8h2zM5 9h2.829A3.006 3.006 0 0 1 5 11c-1.654 0-3-1.346-3-3s1.346-3 3-3c.717 0 1.407.257 1.943.724l1.314-1.508A4.955 4.955 0 0 0 5 3C2.243 3 0 5.243 0 8s2.243 5 5 5 5-2.243 5-5V7H5v2z"></path>
+                  </svg>
+                </div>
+                <div>
+
+                </div>
+
+              </div>
+              <!-- <div class="d-flex header-detail-user">
+                <a href="javascript:void(0)" class="hedare-user">LOGIN</a>
+                <a href="javascript:void(0)" class="hedare-user">REGISTER</a>
+              </div> -->
+            </div>
+  
+          </div>
+          <div class="mobile_toggle_menu_icons" onclick=displayNavbar()>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" stroke-width="1.5" stroke="black" width="50px" height="50px">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+            
+          </div>
+        </div>
+      </header>
+      <nav class="navbar navbar-default" id="nav-item" >
+        <div class="nav navbar-nav">
+          <ul class="nav-ul">
+            <li class="nav-li"><a class="nav-a active" href="javascriptvoid(0)">HOME</a></li>
+            <li class="nav-li"><a class="nav-a" href="javascriptvoid(0)">Our Storyboard</a></li>
+            <li class="nav-li"><a class="nav-a" href="./talentdirectory.html">TALENT DIRECTORY</a></li>
+            <li class="nav-li"><a class="nav-a" href="javascriptvoid(0)">Bollywoodfactory’s Coliseum</a></li>
+            <li class="nav-li"><a class="nav-a" href="./boxofficeinsights.html">Box Office Insights</a></li>
+            <li class="nav-li"><a class="nav-a" href="./contactus.html">Contact Us</a></li>
+            <li class="nav-li"><a class="nav-a" href="./login.html">LOGIN</a></li>
+            <li class="nav-li"><a class="nav-a" href="./register.html">REGISTER</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  
+  </div>
+  <!-- section2 -->
+  <section class="swipper-container">
+    <div class="container-fluid tab-bw-container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../assest/1-1-1.jpg" alt="" width="100%">
+            <div class="slide1-content">
+              <div class="slide1-title1">The Biggest </div>
+              <div class="slide1-title2">Star Voyagers</div>
+              <p class="slide1-decription">There are plenty who dream to be on the big screen, and Bollywood Factory is that platform that will help you make this dream a reality. </p>
+              <a type="button" href="javascript:void(0)" class="btn slide1-btn">Register Now!</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../assest/2-2.jpg" alt="" width="100%">
+            <div class="slide2-content">
+              <div class="slide2-title1">Looking for Artists </div>
+              <div class="slide2-title2">who put ART into every PART</div>
+              <p class="slide2-description">We at Bollywood Factory are looking for talent that can be moulded into the superstars of tomorrow!</p>
+              <a type="button" href="javascript:void(0)" class="btn slide2-btn">Log In Now!</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="../assest/3-3-1.jpg" alt="" width="100%">
+            <div class="slide3-content">
+              <div class="slide3-title1">Your platform to </div>
+              <div class="slide3-title2">Success is US!</div>
+              <p class="slide3-description">Let your love for glamour and fashion guide you on the path of becoming the next BIG STAR.</p>
+              <a type="button" href="javascript:void(0)" class="btn slide3-btn">GET IN TOUCH WITH US</a>
+            </div>
+          </div>
+         
+        </div>
+         
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </section>
+
+  <!-- section3 -->
+  <section class="">
+    <div class="sc3-container">
+      <div class="container-fluid">
+        <h2 class="sc3-title text-center">Don’t just dream, but become that gleam that shines through the screens into
+          the hearts of
+          MILLIONS.</h2>
+        <div class="d-flex justify-content-center sc3-button-container">
+          <a type="button" href="javascript:void(0)" class="btn  sc3-button  ">FIND OUT NOW</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 4 -->
+  <section class="sc4-container">
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+        <div class="col sc4-col">
+          <div class="card border sc4-card border-0 bw-gary rounded-0">
+            <div class="card-body sc4-body d-flex align-items-center flex-column text-center">
+              <div class="sc4-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" width="50">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+
+              </div>
+              <div class="sc4-card-title">Take 1</div>
+              <p class="sc4-card-subtitle">There is no way we can direct and cast the stars of tomorrow without a vision
+                and mission in aim. Take a sneak peek into what makes Bollywood Factory a renowned name.</p>
+            </div>
+            <div class="sc4-border">
+
+            </div>
+          </div>
+        </div>
+        <div class="col sc4-col">
+          <div class="card border sc4-card border-0 bw-gary rounded-0">
+            <div class="card-body sc4-body d-flex align-items-center flex-column text-center">
+              <div class="sc4-icon">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" width="50">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg> -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 20 20">
+                  <path d="M10.203.561c-.027-.215-.38-.215-.406 0-.883 7.107-5.398 8.572-5.398 13.512 0 3.053 2.564 5.527 5.601 5.527 3.036 0 5.6-2.475 5.6-5.527 0-4.94-4.514-6.405-5.397-13.512zM9.35 8.418c-.059.219-.123.444-.189.678-.401 1.424-.856 3.039-.856 4.906 0 1.012-.598 1.371-1.156 1.371a1.161 1.161 0 0 1-1.156-1.166c0-2.207 1.062-3.649 2-4.92.295-.398.572-.775.797-1.15.103-.172.38-.164.506.006.059.08.079.182.054.275z"/>
+                </svg>
+              </div>
+              <div class="sc4-card-title">Our Crew</div>
+              <p class="sc4-card-subtitle">Just like we know that a movie is not made by one, finding and casting the
+                stars of tomorrow is also a team effort. Meet our Bollywood Factory Crew that will guide you.</p>
+            </div>
+            <div class="sc4-border">
+
+            </div>
+          </div>
+        </div>
+        <div class="col sc4-col">
+          <div class="card border sc4-card border-0 bw-gary rounded-0">
+            <div class="card-body sc4-body d-flex align-items-center flex-column text-center">
+              <div class="sc4-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="" width="50">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6.633 10.5c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 00-1.423-.23H5.904M14.25 9h2.25M5.904 18.75c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 01-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 10.203 4.167 9.75 5 9.75h1.053c.472 0 .745.556.5.96a8.958 8.958 0 00-1.302 4.665c0 1.194.232 2.333.654 3.375z" />
+                </svg>
+
+
+              </div>
+              <div class="sc4-card-title">Lights, Camera, Action!</div>
+              <p class="sc4-card-subtitle">Actions speak louder than words, and in the case of Bollywood Factory, we
+                create the next big actors. Zoom into our behind the scenes to find out just why you should let us
+                discover YOU!</p>
+            </div>
+            <div class="sc4-border">
+
+            </div>
+          </div>
+        </div>
+        <div class="col sc4-col">
+          <div class="card border sc4-card border-0 bw-gary rounded-0">
+            <div class="card-body sc4-body d-flex align-items-center flex-column text-center">
+              <div class="sc4-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" width="50">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+
+              </div>
+              <div class="sc4-card-title">Take 1</div>
+              <p class="sc4-card-subtitle">There is no way we can direct and cast the stars of tomorrow without a vision
+                and mission in aim. Take a sneak peek into what makes Bollywood Factory a renowned name.</p>
+            </div>
+            <div class="sc4-border">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 5 -->
+  <section class="sc5-container">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- <div class="col-3 sc5-col-3">
+          <div class="card-dark">
+
+          </div>
+        </div>
+        <div class="col-3 sc5-col-3">
+          <div class="card-dark">
+
+          </div>
+        </div> -->
+        <div class="sc5-col-6 col-12">
+          <div class="card-dark sc5-card">
+            <div class="card-body sc5-body">
+              <div class="sc5-card-title">Bollywood Factory Broadcast</div>
+              <div class="sc5-card-content">
+                <p>Stay tuned to the Bollywood Factory Broadcast channel to learn, and understand more about the most
+                  glamorous industry in town.</p>
+                <p>Sign up to our YouTube channel to stay tuned to the latest from Tinsel Town.</p>
+              </div>
+              <div class="d-flex justify-content-center sc5-button-container">
+                <a type="button" href="javascript:void(0)" class="btn  sc5-button  ">Click here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 6-->
+  <section class="sc6-container">
+    <div class="container-fluid">
+      <div class="d-flex flex-column align-items-center text-center">
+        <h2 class="sc6-title">One Reel, Different Scenes</h2>
+        <p class="sc6-subtitle">Everything that you need to become the next BIG star is provided right here at the
+          Bollywood
+          Factory with complete art!</p>
+        <div class="sc6-border">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 7 -->
+  <section class="sc7-conatiner">
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2">
+        <div class="col sc7-col">
+          <div class="card-dark sc7-card d-flex align-items-center flex-column text-center">
+            <div class="card-img-top">
+              <a type="button" href="javascript:void(0)" class="btn profile-btn ">VIEW PROFILE</a>
+            </div>
+            <h3>Fashion Show</h3>
+            <p>Before becoming the camera’s favourite we give you a chance to walk on the ramp. Get used to the
+              attention by walking straight from the ramp to in front of the camera lens.</p>
+          </div>
+        </div>
+        <div class="col sc7-col">
+          <div class="card-dark sc7-card d-flex align-items-center flex-column text-center">
+            <div class="card-img-top">
+              <a type="button" href="javascript:void(0)" class="btn profile-btn ">VIEW PROFILE</a>
+            </div>
+            <h3>Catwalk Show</h3>
+            <p>We give you an understanding of how to walk the glamorous talk. Make head turns as you participate in
+              various catwalk shows.</p>
+          </div>
+        </div>
+        <div class="col sc7-col">
+          <div class="card-dark sc7-card d-flex align-items-center flex-column text-center">
+           <div class="card-img-top">
+              <a type="button" href="javascript:void(0)" class="btn profile-btn ">VIEW PROFILE</a>
+           </div>
+            <h3>Commercial Photoshoots</h3>
+            <p>Showcase the best of you by getting shot by the best photographers. Get every feature focussed on with
+              our commercial photoshoots.</p>
+          </div>
+        </div>
+        <div class="col sc7-col">
+          <div class="card-dark sc7-card d-flex align-items-center flex-column text-center">
+            <div class="card-img-top">
+              <a type="button" href="javascript:void(0)" class="btn profile-btn ">VIEW PROFILE</a>
+            </div>
+            <h3>Fashion Show</h3>
+            <p>Before becoming the camera’s favourite we give you a chance to walk on the ramp. Get used to the
+              attention by walking straight from the ramp to in front of the camera lens.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- section 8 -->
+  <section class="sc8-conatiner">
+    <div class="container-fluid">
+      <div class="d-flex flex-column align-items-center text-center mb-5">
+        <h2 class="sc8-title">Hall of Fame</h2>
+        <p class="sc8-subtitle">Before you become the nations heartthrobs, why not rule the <strong>Bollywood Factory’s
+            Hall of Fame?</strong> We recognize all those who become winners on their way to achieving stardom and
+          success with us.</p>
+        <div class="sc8-dorder"></div>
+      </div>
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2">
+        <div class="col">
+          <div class="card-dark sc8-card d-flex align-items-center justify-content-center flex-column text-center ">
+            <h2>Micheal Clark</h2>
+            <div class="sc8-card-subtitle">Talent Advisor</div>
+            <p>Suspendisse mattis ante sit amet ante blandit, in sodales enim auctor. In at consequat sapien. Donec id
+              aliquam nibh quis.</p>
+            <div class="sc8-card-icon d-flex ">
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                <path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"/>
+              </svg>
+
+              </a>
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                  <path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"/>
+                </svg>
+
+              </a>
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 16 16">
+                  <path d="M16 7h-2V5h-1v2h-2v1h2v2h1V8h2zM5 9h2.829A3.006 3.006 0 0 1 5 11c-1.654 0-3-1.346-3-3s1.346-3 3-3c.717 0 1.407.257 1.943.724l1.314-1.508A4.955 4.955 0 0 0 5 3C2.243 3 0 5.243 0 8s2.243 5 5 5 5-2.243 5-5V7H5v2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card-dark sc8-card d-flex align-items-center justify-content-center flex-column text-center ">
+            <h2>Lisa Merry</h2>
+            <div class="sc8-card-subtitle">Financial Executive</div>
+            <p>In at consequat sapien. Donec id aliquam nibh quis.Suspendisse mattis ante sit amet ante blandit, in
+              sodales enim auct</p>
+            <div class="sc8-card-icon d-flex ">
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                  <path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"/>
+                </svg>
+              </a>
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                  <path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"/>
+                </svg>
+              </a>
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 16 16">
+                  <path d="M16 7h-2V5h-1v2h-2v1h2v2h1V8h2zM5 9h2.829A3.006 3.006 0 0 1 5 11c-1.654 0-3-1.346-3-3s1.346-3 3-3c.717 0 1.407.257 1.943.724l1.314-1.508A4.955 4.955 0 0 0 5 3C2.243 3 0 5.243 0 8s2.243 5 5 5 5-2.243 5-5V7H5v2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card-dark sc8-card d-flex align-items-center justify-content-center flex-column text-center ">
+            <h2>Johne Parle</h2>
+            <div class="sc8-card-subtitle">Event Manager</div>
+            <p>Donec id aliquam nibh Suspendisse mattis ante sit amet ante blandit, in sodales enim auctor. In at
+              consequat sapien.</p>
+            <div class="sc8-card-icon d-flex ">
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                  <path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"/>
+                </svg>
+              </a>
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                  <path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"/>
+                </svg>
+              </a>
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 16 16">
+                  <path d="M16 7h-2V5h-1v2h-2v1h2v2h1V8h2zM5 9h2.829A3.006 3.006 0 0 1 5 11c-1.654 0-3-1.346-3-3s1.346-3 3-3c.717 0 1.407.257 1.943.724l1.314-1.508A4.955 4.955 0 0 0 5 3C2.243 3 0 5.243 0 8s2.243 5 5 5 5-2.243 5-5V7H5v2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card-dark sc8-card d-flex align-items-center justify-content-center flex-column text-center ">
+            <h2>Micheal Clark</h2>
+            <div class="sc8-card-subtitle">Talent Advisor</div>
+            <p>Suspendisse mattis ante sit amet ante blandit, in sodales enim auctor. In at consequat sapien. Donec id
+              aliquam nibh quis.</p>
+            <div class="sc8-card-icon d-flex ">
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                <path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"/>
+              </svg>
+
+              </a>
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                  <path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"/>
+                </svg>
+
+              </a>
+              <a href="javascript:void(0)" class="d-flex align-items-center justify-content-center ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 16 16">
+                  <path d="M16 7h-2V5h-1v2h-2v1h2v2h1V8h2zM5 9h2.829A3.006 3.006 0 0 1 5 11c-1.654 0-3-1.346-3-3s1.346-3 3-3c.717 0 1.407.257 1.943.724l1.314-1.508A4.955 4.955 0 0 0 5 3C2.243 3 0 5.243 0 8s2.243 5 5 5 5-2.243 5-5V7H5v2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section9 -->
+  <section class="sc9-conatiner">
+    <div class="container-fluid">
+      <div class="sc9-title">
+        <h2>Client Talkies</h2>
+        <div class="sc9-border"></div>
+      </div>
+      <div>
+        <div class="row row-cols-md-2 row-cols-1">
+          <div class="col mb-2">
+            <div class="card-dark sc9-card1">
+              <div class="sc9-card-content">
+                <h3>Kevin Peterson</h3>
+                <p>
+                  Suspendisse mattis ante sit amet ante blandit, in sodales enim auctor. In at consequat sapien. Donec id
+                  aliquam nibh, quis hendrerit dolor
+                </p>
+              </div>
+              <!-- <div class="sc9-card-empty"></div> -->
+            </div>
+          </div>
+          <div class="col mb-2">
+            <div class="card-dark sc9-card2">
+              <div class="sc9-card-content">
+                <h3>Mavin Corey</h3>
+                <p>Donec id aliquam nibh, quis hendrerit dolor.Suspendisse mattis ante sit amet ante blandit, in sodales
+                  enim auctor. In at consequat sapien.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-2">
+            <div class="card-dark sc9-card3">
+              <div class="sc9-card-content">
+                <h3>Don Leo</h3>
+                <p>Blandit suspendisse mattis ante sit amet ante, in sodales enim auctor. In at consequat sapien. Donec id
+                  aliquam nibh, quis hendrerit dolor.</p>
+              </div>
+              <div class="sc9-card-empty"></div>
+            </div>
+          </div>
+          <div class="col mt-2">
+            <div class="card-dark sc9-card4">
+              <div class="sc9-card-content">
+                <h3>Laura Steve</h3>
+                <p>In at consequat sapien. Donec id aliquam nibh, quis hendrerit dolor.Suspendisse mattis ante sit amet
+                  ante
+                  blandit, in sodales enim auctor.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer-conatiner">
+    <div class="scroll-top-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" fill="white" viewBox="0 0 24 24">
+        <path d="M17.71,11.29l-5-5a1,1,0,0,0-.33-.21,1,1,0,0,0-.76,0,1,1,0,0,0-.33.21l-5,5a1,1,0,0,0,1.42,1.42L11,9.41V17a1,1,0,0,0,2,0V9.41l3.29,3.3a1,1,0,0,0,1.42,0A1,1,0,0,0,17.71,11.29Z"/>
+      </svg>
+    </div>
+    <!-- <div class="footer-title">All Rights Reserved kayapati</div> -->
+    <div class="footer-content">
+        <div class="content1">
+          <p class="about">About</p>
+          <p>Our Storyboard</p>
+          <p>Talent Directory</p>
+          <p>Bollywoodfactory’s Coliseum</p>
+          <p>Box Office Insights</p>
+
+        </div>
+        <div class="content2">
+          <p class="services">Services</p>
+          <p>Zoom In</p>
+          <p>LOGIN</p>
+          <p>REGISTER</p>
+        </div>
+        <div class="content3">
+          <p class="customer-services"> Customer Services</p>
+          <p>FAQ's</p>
+          <p>Privacy Policiy</p>
+          <p>Terms and Condition</p>
+        </div>
+    </div>
+    <div class="footer-subscribe">
+      <div class="subscribe-container">
+        <div class="footer-input">
+          <input type="text" placeholder="Email address"/>
+        </div>
+        <a type="button" href="javascript:void(0)" class="btn subscribe-btn ">Subscribe</a>
+      </div>
+      <div class="icon-container">
+        <h4 class="footer-contact">Call Us: +1 800 559 6580</h4>
+                <div class="footer-detail-icon">
+                  <div class="footer-social-media-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                      <path d="M15.12,5.32H17V2.14A26.11,26.11,0,0,0,14.26,2C11.54,2,9.68,3.66,9.68,6.7V9.32H6.61v3.56H9.68V22h3.68V12.88h3.06l.46-3.56H13.36V7.05C13.36,6,13.64,5.32,15.12,5.32Z"/>
+                    </svg>
+                  </div>
+                  <div class="footer-social-media-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512"><polygon fill="none" points="222.1 313.9 322.3 256 222.1 198.1"/>
+                      <path fill="white" d="M443.2,98.2c-55.9-3.7-146.9-7.1-187.2-7.1s-131.3,3.5-187.2,7.1c-24,1.6-42.8,21.6-42.8,45.7v224.2   c0,24,18.8,44.1,42.8,45.7c55.9,3.7,146.9,7.1,187.2,7.1s131.3-3.5,187.2-7.1c24-1.6,42.8-21.6,42.8-45.7V143.9   C486,119.9,467.2,99.8,443.2,98.2z M347.3,264.7l-130.2,75.2c-1.5,0.9-3.3,1.3-5,1.3s-3.5-0.4-5-1.3c-3.1-1.8-5-5.1-5-8.7V180.8   c0-3.6,1.9-6.9,5-8.7s6.9-1.8,10,0l130.2,75.2c3.1,1.8,5,5.1,5,8.7C352.3,259.6,350.4,262.9,347.3,264.7z"/>
+                      <path fill="white" d="M444.5,78.3c-56.3-3.7-147.9-7.2-188.5-7.2s-132.3,3.5-188.5,7.2C33,80.5,6,109.4,6,143.9v224.2   c0,34.5,27,63.4,61.5,65.6c56.3,3.7,147.9,7.2,188.5,7.2s132.3-3.5,188.5-7.2c34.5-2.3,61.5-31.1,61.5-65.6V143.9   C506,109.4,479,80.5,444.5,78.3z M486,368.1c0,24-18.8,44.1-42.8,45.7c-55.9,3.7-146.9,7.1-187.2,7.1s-131.3-3.5-187.2-7.1   c-24-1.6-42.8-21.6-42.8-45.7V143.9c0-24,18.8-44.1,42.8-45.7c55.9-3.7,146.9-7.1,187.2-7.1s131.3,3.5,187.2,7.1   c24,1.6,42.8,21.6,42.8,45.7V368.1z"/>
+                      <path fill="white" d="M347.3,247.3l-130.2-75.2c-3.1-1.8-6.9-1.8-10,0s-5,5.1-5,8.7v150.4c0,3.6,1.9,6.9,5,8.7   c1.5,0.9,3.3,1.3,5,1.3s3.5-0.4,5-1.3l130.2-75.2c3.1-1.8,5-5.1,5-8.7C352.3,252.4,350.4,249.1,347.3,247.3z M222.1,313.9V198.1   L322.3,256L222.1,313.9z"/>
+                    </svg>
+                  </div>
+                  <div class="footer-social-media-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="wifi"><circle cx="12" cy="19" r="1"/><path d="M12 14a5 5 0 0 0-3.47 1.4 1 1 0 1 0 1.39 1.44 3.08 3.08 0 0 1 4.16 0 1 1 0 1 0 1.39-1.44A5 5 0 0 0 12 14zm0-5a9 9 0 0 0-6.47 2.75A1 1 0 0 0 7 13.14a7 7 0 0 1 10.08 0 1 1 0 0 0 .71.3 1 1 0 0 0 .72-1.69A9 9 0 0 0 12 9z"/>
+                      <path d="M21.72 7.93a14 14 0 0 0-19.44 0 1 1 0 0 0 1.38 1.44 12 12 0 0 1 16.68 0 1 1 0 0 0 .69.28 1 1 0 0 0 .72-.31 1 1 0 0 0-.03-1.41z"/></g></g>
+                    </svg>
+                  </div>
+                  <div class="footer-social-media-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" data-name="Layer 1" viewBox="0 0 24 24">
+                      <path d="M22,5.8a8.49,8.49,0,0,1-2.36.64,4.13,4.13,0,0,0,1.81-2.27,8.21,8.21,0,0,1-2.61,1,4.1,4.1,0,0,0-7,3.74A11.64,11.64,0,0,1,3.39,4.62a4.16,4.16,0,0,0-.55,2.07A4.09,4.09,0,0,0,4.66,10.1,4.05,4.05,0,0,1,2.8,9.59v.05a4.1,4.1,0,0,0,3.3,4A3.93,3.93,0,0,1,5,13.81a4.9,4.9,0,0,1-.77-.07,4.11,4.11,0,0,0,3.83,2.84A8.22,8.22,0,0,1,3,18.34a7.93,7.93,0,0,1-1-.06,11.57,11.57,0,0,0,6.29,1.85A11.59,11.59,0,0,0,20,8.45c0-.17,0-.35,0-.53A8.43,8.43,0,0,0,22,5.8Z"></path>
+                    </svg>
+                  </div>
+                  <div class="footer-social-media-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 16 16">
+                      <path d="M16 7h-2V5h-1v2h-2v1h2v2h1V8h2zM5 9h2.829A3.006 3.006 0 0 1 5 11c-1.654 0-3-1.346-3-3s1.346-3 3-3c.717 0 1.407.257 1.943.724l1.314-1.508A4.955 4.955 0 0 0 5 3C2.243 3 0 5.243 0 8s2.243 5 5 5 5-2.243 5-5V7H5v2z"></path>
+                    </svg>
+                  </div>
+                  <div>
+  
+                  </div>
+  
+                </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- swiperjs -->
+  <script src="../script/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        disableOnInteraction: false
+      },
+      interval: 500,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      loop: true,
+    });
+
+    function displayNavbar() {
+      var x = document.getElementById("nav-item");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+
+</html>

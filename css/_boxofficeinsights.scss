@@ -1,0 +1,54 @@
+.box-office{
+  color: var(--bs-white);
+    padding: 20px 30px;
+    background-color: rgba(136, 136, 136, 0.1607843137);
+}
+
+.box-office-container{
+  width: 100%;
+  margin: 30px auto;
+  height: 200px;
+
+  .box-office-content{
+    width: 50%;
+
+    .box-office-image{
+      max-width: 100%;
+      height: auto;
+
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .box-office-data{
+    width: 30%;
+
+    .search{
+      width: 70%;
+    }
+
+    h4{
+      color: var(--bs-white);
+    }
+
+    .box-office-content{
+      margin-top: 30px;
+      h4{
+        color: var(--bs-white);
+      }
+      p{
+        color: red;
+      }
+    }
+
+    .meta-data{
+      color: red;
+      .meta-border{
+        border-bottom: 1px solid var(--bs-gray);
+      }
+    }
+  }
+}
